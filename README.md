@@ -13,23 +13,24 @@ To provide a secure, transparent, and easy-to-use escrow mechanism for peer-to-p
 - User-friendly front-end for non-technical users
 
 ## Contract Address
-`{
-  "Result": {
-    "transaction_hash": "0x6da9546b1246c07b317aa32644b5b6142d086df07b2c4b4749f3f39b03cb7b1c",
-    "gas_used": 2022,
-    "gas_unit_price": 100,
-    "sender": "ebb2889bf5ce5d48f2deb6de7ea2ff59c231f57828d1a0dbd0f52957484f9070",
-    "sequence_number": 0,
-    "replay_protector": {
-      "SequenceNumber": 0
-    },
-    "success": true,
-    "timestamp_us": 1754650150212006,
-    "version": 27893233,
-    "vm_status": "Executed successfully"
-  }
-}`
-
+```json
+{
+	"Result": {
+		"transaction_hash": "0x6da9546b1246c07b317aa32644b5b6142d086df07b2c4b4749f3f39b03cb7b1c",
+		"gas_used": 2022,
+		"gas_unit_price": 100,
+		"sender": "ebb2889bf5ce5d48f2deb6de7ea2ff59c231f57828d1a0dbd0f52957484f9070",
+		"sequence_number": 0,
+		"replay_protector": {
+			"SequenceNumber": 0
+		},
+		"success": true,
+		"timestamp_us": 1754650150212006,
+		"version": 27893233,
+		"vm_status": "Executed successfully"
+	}
+}
+```
 ---
 **Author:** prince maurya
 <img width="1913" height="962" alt="image" src="https://github.com/user-attachments/assets/5d9b74ff-08e4-4054-b05e-b10faf907b5a" />
