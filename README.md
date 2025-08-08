@@ -1,31 +1,19 @@
 # Simple Escrow Move Smart Contract
 
-This project contains a simple escrow smart contract written in Move for the Aptos blockchain.
+## Description
+This project implements a simple escrow smart contract using the Move language for the Aptos blockchain. The contract allows a sender to lock funds for a receiver and later release those funds securely, ensuring trustless transactions between parties.
 
-## Features
+## Vision
+To provide a secure, transparent, and easy-to-use escrow mechanism for peer-to-peer transactions on the Aptos blockchain, reducing the risk of fraud and building trust in decentralized exchanges.
 
-- Lock funds in escrow between a sender and a receiver
-- Release funds to the receiver by the sender
+## Future Scope
+- Add dispute resolution mechanisms for more complex escrow scenarios
+- Support for multiple token types and custom assets
+- Integration with decentralized identity and reputation systems
+- User-friendly front-end for non-technical users
 
-## Contract Overview
-
-- `create_escrow(sender, receiver, amount)`: Sender locks funds for the receiver.
-- `release_escrow(sender)`: Sender releases funds to the receiver.
-
-## Reference
-
-This contract is inspired by the Aptos beginner idea: **Simple Escrow**.
-
-## Usage
-
-1. Deploy the contract to Aptos.
-2. Call `create_escrow` to lock funds.
-3. Call `release_escrow` to release funds to the receiver.
+## Contract Address
+`<To be deployed: Add contract address here>`
 
 ---
-
-For more details, see the `sources/` directory.
-
----
-
 **Author:** prince maurya
