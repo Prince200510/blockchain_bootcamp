@@ -32,5 +32,5 @@ To provide a secure, transparent, and easy-to-use escrow mechanism for peer-to-p
 
 ---
 **Author:** prince maurya
-![Uploading image.png…]()
+<img width="1913" height="962" alt="image" src="https://github.com/user-attachments/assets/5d9b74ff-08e4-4054-b05e-b10faf907b5a" />
 
